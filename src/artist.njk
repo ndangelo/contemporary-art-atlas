@@ -1,0 +1,11 @@
+---
+layout: base.njk
+pagination:
+  data: artists
+  size: 1
+  alias: artist
+permalink: "artists/{{ artist.slug }}/index.html"
+eleventyComputed:
+  title: "{{ artist.name }}"
+---
+<article class="artist-profile"><p class="eyebrow">Artist research profile · {{ artist.media }}</p><h1>{{ artist.name }}</h1><p class="intro">{{ artist.summary }}</p><section class="panel"><h2>Start here · see the work</h2>{% if artist.videos.length %}{% for video in artist.videos %}<iframe loading="lazy" src="{{ video.embed }}" title="{{ video.title }}" allowfullscreen></iframe><p>{{ video.title }} · <a href="{{ video.url }}">Source</a></p>{% endfor %}{% elif artist.images.length %}{% for item in artist.images %}<figure><img src="{{ item.src }}" alt="{{ item.alt }}" loading="lazy"><figcaption>{{ item.caption }} · <a href="{{ item.source }}">Image source / license</a></figcaption></figure>{% endfor %}{% else %}<p>Visual media is being verified. Until then, explore the artist's documented work at the institutional source below.</p><a href="{{ artist.source.url }}" target="_blank" rel="noopener noreferrer">View artwork and documentation at {{ artist.source.publisher }} ↗</a>{% endif %}</section><section><h2>Overview</h2><p>{{ artist.summary }}</p><p>Primary source: <a href="{{ artist.source.url }}">{{ artist.source.title }}</a> — {{ artist.source.publisher }}.</p></section><section><h2>Research &amp; Critical Perspectives</h2><p>Research leads, not verified scholarly references:</p><ul><li><a href="{{ artist.source.url }}">Institutional or artist publication</a></li><li><a href="https://scholar.google.com/scholar?q={{ artist.name | urlencode }}">Scholarly research</a></li><li><a href="https://www.google.com/search?q={{ (artist.name + ' interview art criticism') | urlencode }}">Interviews and criticism</a></li></ul></section><section><h2>References · APA 7 and Chicago</h2><p class="muted">Provisional source record; verify title, author and date before citation.</p><p><strong>APA:</strong> {{ artist.source.publisher }}. ({{ artist.source.year }}). <i>{{ artist.source.title }}</i>. <a href="{{ artist.source.url }}">{{ artist.source.url }}</a></p><p><strong>Chicago:</strong> {{ artist.source.publisher }}. “{{ artist.source.title }}.” {{ artist.source.year }}. <a href="{{ artist.source.url }}">{{ artist.source.url }}</a>.</p></section></article>
