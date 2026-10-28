@@ -1,0 +1,241 @@
+[
+  {
+    "name": "Julie Mehretu",
+    "slug": "julie-mehretu",
+    "category": "contemporary",
+    "media": "Painting, drawing",
+    "summary": "Large-scale abstractions layer architectural marks, maps, and historical references.",
+    "source": {
+      "publisher": "Whitney Museum of American Art",
+      "year": "2021",
+      "title": "Julie Mehretu",
+      "url": "https://whitney.org/exhibitions/julie-mehretu"
+    },
+    "images": [],
+    "videos": [],
+    "research": []
+  },
+  {
+    "name": "Olafur Eliasson",
+    "slug": "olafur-eliasson",
+    "category": "contemporary",
+    "media": "Installation, sculpture",
+    "summary": "Immersive environments use light, space, and perception to make viewers aware of how they experience the world.",
+    "source": {
+      "publisher": "Tate",
+      "year": "n.d.",
+      "title": "Olafur Eliasson",
+      "url": "https://www.tate.org.uk/art/artists/olafur-eliasson-11855"
+    },
+    "images": [
+      {
+        "slug": "olafur-eliasson",
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Olafur_Eliasson_Malmo.JPG",
+        "alt": "Permanent outdoor installation by Olafur Eliasson in Limhamn, Malmö, Sweden",
+        "caption": "Olafur Eliasson installation in Malmö, photograph by Bengt Oberger, 2009; CC BY 3.0. Artwork rights may differ.",
+        "source": "https://commons.wikimedia.org/wiki/File:Olafur_Eliasson_Malmo.JPG",
+        "license": "CC BY 3.0 (photograph)",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "creator": "Bengt Oberger",
+        "kind": "installation photograph"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Olafur Eliasson — artwork documentation",
+        "embed": "https://www.youtube-nocookie.com/embed/kYAaZ53tazU",
+        "url": "https://www.youtube.com/watch?v=kYAaZ53tazU",
+        "publisher": "YouTube",
+        "type": "artist video"
+      }
+    ],
+    "research": []
+  },
+  {
+    "name": "Simone Leigh",
+    "slug": "simone-leigh",
+    "category": "contemporary",
+    "media": "Sculpture, ceramics",
+    "summary": "Monumental sculptural works foreground Black women's histories, labor, and forms of representation.",
+    "source": {
+      "publisher": "Solomon R. Guggenheim Museum",
+      "year": "n.d.",
+      "title": "Simone Leigh",
+      "url": "https://www.guggenheim.org/artwork/artist/simone-leigh"
+    },
+    "images": [],
+    "videos": [],
+    "research": []
+  },
+  {
+    "name": "Kara Walker",
+    "slug": "kara-walker",
+    "category": "contemporary",
+    "media": "Installation, drawing",
+    "summary": "Silhouettes, installations, and other media confront histories of race, power, and violence.",
+    "source": {
+      "publisher": "Walker Art Center",
+      "year": "n.d.",
+      "title": "Kara Walker",
+      "url": "https://walkerart.org/collections/artists/kara-walker"
+    },
+    "images": [],
+    "videos": [],
+    "research": []
+  },
+  {
+    "name": "Cecilia Vicuña",
+    "slug": "cecilia-vicuna",
+    "category": "contemporary",
+    "media": "Installation, poetry, performance",
+    "summary": "Her multidisciplinary practice connects Indigenous knowledge, language, ecological care, and fragile materials.",
+    "source": {
+      "publisher": "Guggenheim Museum",
+      "year": "2022",
+      "title": "Cecilia Vicuña: Spin Spin Triangulene",
+      "url": "https://www.guggenheim.org/exhibition/cecilia-vicuna-spin-spin-triangulene"
+    },
+    "images": [
+      {
+        "slug": "cecilia-vicuna",
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Cecilia-vicuna.jpg",
+        "alt": "Portrait of Cecilia Vicuña at Museo Nacional de Bellas Artes, Chile",
+        "caption": "Cecilia Vicuña, portrait, 2014. Author credited as Cecilia Vicuña; CC BY 4.0.",
+        "source": "https://commons.wikimedia.org/wiki/File:Cecilia-vicuna.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "creator": "Cecilia Vicuña",
+        "kind": "portrait"
+      }
+    ],
+    "videos": [],
+    "research": []
+  },
+  {
+    "name": "Theaster Gates",
+    "slug": "theaster-gates",
+    "category": "contemporary",
+    "media": "Social practice, sculpture",
+    "summary": "Gates combines material transformation, cultural preservation, and community-centered projects.",
+    "source": {
+      "publisher": "Theaster Gates Studio",
+      "year": "n.d.",
+      "title": "Theaster Gates",
+      "url": "https://www.theastergates.com/"
+    },
+    "images": [],
+    "videos": [],
+    "research": []
+  },
+  {
+    "name": "Wolfgang Tillmans",
+    "slug": "wolfgang-tillmans",
+    "category": "experimental",
+    "media": "Photography, installation",
+    "summary": "His photographic practice moves between portraiture, abstraction, everyday observation, and exhibition design.",
+    "source": {
+      "publisher": "Museum of Modern Art",
+      "year": "2022",
+      "title": "Wolfgang Tillmans: To look without fear",
+      "url": "https://www.moma.org/calendar/exhibitions/5440"
+    },
+    "images": [],
+    "videos": [],
+    "research": []
+  },
+  {
+    "name": "William Kentridge",
+    "slug": "william-kentridge",
+    "category": "experimental",
+    "media": "Animation, drawing, film",
+    "summary": "Charcoal drawing and stop-motion animation examine memory, politics, and the instability of images.",
+    "source": {
+      "publisher": "Museum of Modern Art",
+      "year": "2010",
+      "title": "William Kentridge: Five themes",
+      "url": "https://www.moma.org/calendar/exhibitions/964"
+    },
+    "images": [],
+    "videos": [
+      {
+        "title": "William Kentridge: Meaning — Art21",
+        "embed": "https://www.youtube-nocookie.com/embed/CHU6nBzdg-8",
+        "url": "https://www.youtube.com/watch?v=CHU6nBzdg-8",
+        "publisher": "Art21",
+        "type": "artist interview and artwork documentation"
+      },
+      {
+        "title": "William Kentridge — Art21",
+        "embed": "https://www.youtube-nocookie.com/embed/2aW8T123r-0",
+        "url": "https://www.youtube.com/watch?v=2aW8T123r-0",
+        "publisher": "Art21",
+        "type": "artist interview and artwork documentation"
+      }
+    ],
+    "research": []
+  },
+  {
+    "name": "Hito Steyerl",
+    "slug": "hito-steyerl",
+    "category": "experimental",
+    "media": "Video, installation, writing",
+    "summary": "Her moving-image work explores digital circulation, surveillance, image politics, and technology.",
+    "source": {
+      "publisher": "Artists Space",
+      "year": "2020",
+      "title": "Hito Steyerl",
+      "url": "https://artistsspace.org/"
+    },
+    "images": [],
+    "videos": [],
+    "research": []
+  },
+  {
+    "name": "Arthur Jafa",
+    "slug": "arthur-jafa",
+    "category": "experimental",
+    "media": "Film, video, photography",
+    "summary": "Jafa's moving-image work investigates Black visual culture through montage, sound, and image histories.",
+    "source": {
+      "publisher": "Museum of Contemporary Art Chicago",
+      "year": "n.d.",
+      "title": "Arthur Jafa",
+      "url": "https://mcachicago.org/"
+    },
+    "images": [],
+    "videos": [],
+    "research": []
+  },
+  {
+    "name": "Christian Marclay",
+    "slug": "christian-marclay",
+    "category": "experimental",
+    "media": "Video, sound, performance",
+    "summary": "Marclay connects sound, cinema, found footage, and performance in time-based artworks.",
+    "source": {
+      "publisher": "Tate",
+      "year": "n.d.",
+      "title": "Christian Marclay",
+      "url": "https://www.tate.org.uk/art/artists/christian-marclay-2665"
+    },
+    "images": [],
+    "videos": [],
+    "research": []
+  },
+  {
+    "name": "Rafael Lozano-Hemmer",
+    "slug": "rafael-lozano-hemmer",
+    "category": "experimental",
+    "media": "Interactive installation, media art",
+    "summary": "His participatory installations use sensing, light, and computational systems to implicate audiences.",
+    "source": {
+      "publisher": "Rafael Lozano-Hemmer",
+      "year": "n.d.",
+      "title": "Projects",
+      "url": "https://www.lozano-hemmer.com/"
+    },
+    "images": [],
+    "videos": [],
+    "research": []
+  }
+]
