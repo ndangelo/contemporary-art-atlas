@@ -1,0 +1,47 @@
+{
+  "artist": "Julie Mehretu",
+  "reviewed": "2026-10-27",
+  "policy": "Do not reproduce artwork merely because a museum makes an image viewable or a third party licenses its photograph. Underlying artwork rights may remain protected.",
+  "works": [
+    {
+      "title": "Stadia II",
+      "year": 2004,
+      "institution": "Carnegie Museum of Art",
+      "source": "https://artsandculture.google.com/asset/stadia-ii-0299/lAHqEFaUfsrZ1w",
+      "image_status": "permission_required",
+      "evidence": "Google Arts & Culture: © Julie Mehretu. By permission."
+    },
+    {
+      "title": "HOWL, eon (I, II)",
+      "year": 2017,
+      "institution": "SFMOMA",
+      "source": "https://www.sfmoma.org/artist/Julie_Mehretu/",
+      "image_status": "permission_required",
+      "evidence": "SFMOMA requests image-use enquiries to copyright@sfmoma.org. Commons photographer license does not establish underlying artwork rights."
+    },
+    {
+      "title": "Untitled",
+      "year": 2002,
+      "institution": "British Museum",
+      "source": "https://artsandculture.google.com/asset/julie-mehretu-untitled/YgGog-DmmpcX4A",
+      "image_status": "permission_required",
+      "evidence": "British Museum image reproduced by permission of artist; museum photo copyright."
+    },
+    {
+      "title": "Myriads, Only by Dark",
+      "year": 2014,
+      "institution": "National Gallery of Art",
+      "source": "https://www.nga.gov/artists/28766-julie-mehretu/artworks",
+      "image_status": "review_required",
+      "evidence": "Collection displays artwork; item-specific reproduction license not established."
+    },
+    {
+      "title": "Entropia: Construction",
+      "year": null,
+      "institution": "Smithsonian NMAAHC",
+      "source": "https://nmaahc.si.edu/object/nmaahc_2014.130.8",
+      "image_status": "permission_required",
+      "evidence": "Smithsonian: © Julie Mehretu and Marian Goodman Gallery; permission required."
+    }
+  ]
+}
