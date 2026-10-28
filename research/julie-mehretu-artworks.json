@@ -1,0 +1,44 @@
+{
+  "artist": "Julie Mehretu",
+  "focus_period": "2000–present",
+  "status": "research_in_progress",
+  "rights_policy": "No inline reproduction without documented authorization for artwork and image.",
+  "artworks": [
+    {
+      "title": "Stadia II",
+      "date": "2004",
+      "medium": "Ink and acrylic on canvas",
+      "collection": "Carnegie Museum of Art",
+      "museum_url": "https://collection.carnegieart.org/objects/3229aff9-ee40-4ef0-9789-106221a25892",
+      "image_status": "permission_required",
+      "image_url": null
+    },
+    {
+      "title": "Of other Planes of There (S.R.)",
+      "date": "2018–2019",
+      "medium": "Ink and acrylic on canvas",
+      "collection": "Whitney Museum of American Art",
+      "museum_url": "https://whitney.org/collection/works/63599",
+      "image_status": "permission_required",
+      "image_url": null
+    },
+    {
+      "title": "HOWL, eon (I, II)",
+      "date": "2016–2017",
+      "medium": "Ink and acrylic on canvas",
+      "collection": "SFMOMA",
+      "museum_url": "https://www.sfmoma.org/exhibition/julie-mehretu-howl-eon-i-ii/",
+      "image_status": "permission_required",
+      "image_url": null
+    },
+    {
+      "title": "Everywhen",
+      "date": "2021–2023",
+      "medium": "Ink and acrylic on canvas",
+      "collection": "Museum of Modern Art (promised gift)",
+      "museum_url": "https://www.moma.org/collection/works/459800",
+      "image_status": "permission_required",
+      "image_url": null
+    }
+  ]
+}
