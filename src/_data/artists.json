@@ -27,7 +27,19 @@
       "title": "Olafur Eliasson",
       "url": "https://www.tate.org.uk/art/artists/olafur-eliasson-11855"
     },
-    "images": [],
+    "images": [
+      {
+        "slug": "olafur-eliasson",
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Olafur_Eliasson_Malmo.JPG",
+        "alt": "Permanent outdoor installation by Olafur Eliasson in Limhamn, Malmö, Sweden",
+        "caption": "Olafur Eliasson installation in Malmö, photograph by Bengt Oberger, 2009; CC BY 3.0. Artwork rights may differ.",
+        "source": "https://commons.wikimedia.org/wiki/File:Olafur_Eliasson_Malmo.JPG",
+        "license": "CC BY 3.0 (photograph)",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "creator": "Bengt Oberger",
+        "kind": "installation photograph"
+      }
+    ],
     "videos": [],
     "research": []
   },
@@ -75,7 +87,19 @@
       "title": "Cecilia Vicuña: Spin Spin Triangulene",
       "url": "https://www.guggenheim.org/exhibition/cecilia-vicuna-spin-spin-triangulene"
     },
-    "images": [],
+    "images": [
+      {
+        "slug": "cecilia-vicuna",
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Cecilia-vicuna.jpg",
+        "alt": "Portrait of Cecilia Vicuña at Museo Nacional de Bellas Artes, Chile",
+        "caption": "Cecilia Vicuña, portrait, 2014. Author credited as Cecilia Vicuña; CC BY 4.0.",
+        "source": "https://commons.wikimedia.org/wiki/File:Cecilia-vicuna.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "creator": "Cecilia Vicuña",
+        "kind": "portrait"
+      }
+    ],
     "videos": [],
     "research": []
   },
