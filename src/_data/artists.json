@@ -40,7 +40,15 @@
         "kind": "installation photograph"
       }
     ],
-    "videos": [],
+    "videos": [
+      {
+        "title": "Olafur Eliasson — artwork documentation",
+        "embed": "https://www.youtube-nocookie.com/embed/kYAaZ53tazU",
+        "url": "https://www.youtube.com/watch?v=kYAaZ53tazU",
+        "publisher": "YouTube",
+        "type": "artist video"
+      }
+    ],
     "research": []
   },
   {
@@ -148,7 +156,22 @@
       "url": "https://www.moma.org/calendar/exhibitions/964"
     },
     "images": [],
-    "videos": [],
+    "videos": [
+      {
+        "title": "William Kentridge: Meaning — Art21",
+        "embed": "https://www.youtube-nocookie.com/embed/CHU6nBzdg-8",
+        "url": "https://www.youtube.com/watch?v=CHU6nBzdg-8",
+        "publisher": "Art21",
+        "type": "artist interview and artwork documentation"
+      },
+      {
+        "title": "William Kentridge — Art21",
+        "embed": "https://www.youtube-nocookie.com/embed/2aW8T123r-0",
+        "url": "https://www.youtube.com/watch?v=2aW8T123r-0",
+        "publisher": "Art21",
+        "type": "artist interview and artwork documentation"
+      }
+    ],
     "research": []
   },
   {
