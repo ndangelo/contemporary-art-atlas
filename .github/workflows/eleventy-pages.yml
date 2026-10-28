@@ -1,15 +1,12 @@
-name: Eleventy Pages (migration)
+name: Eleventy migration validation
 on:
-  push:
+  pull_request:
     branches: [main]
+  push:
+    branches: [eleventy-migration]
   workflow_dispatch:
 permissions:
   contents: read
-  pages: write
-  id-token: write
-concurrency:
-  group: pages
-  cancel-in-progress: true
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,15 +17,16 @@ jobs:
           node-version: '22'
       - run: npm install --no-audit --no-fund
       - run: npm run build
-      - uses: actions/upload-pages-artifact@v3
+      - name: Check generated pages and assets
+        run: |
+          test -s _site/index.html
+          test -s _site/assets/site.css
+          test -s _site/assets/atlas-theme.css
+          test -s _site/artists/julie-mehretu/index.html
+          test -s _site/julie-mehretu.html
+          grep -q 'Julie Mehretu' _site/artists/julie-mehretu/index.html
+          grep -q 'Read the complete research profile' _site/artists/julie-mehretu/index.html
+      - uses: actions/upload-artifact@v4
         with:
+          name: eleventy-migration-site
           path: _site
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
