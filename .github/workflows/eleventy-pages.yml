@@ -17,15 +17,21 @@ jobs:
           node-version: '22'
       - run: npm install --no-audit --no-fund
       - run: npm run build
-      - name: Check generated pages and assets
+      - name: Check generated pages, legacy research, and assets
         run: |
+          set -euo pipefail
           test -s _site/index.html
           test -s _site/assets/site.css
           test -s _site/assets/atlas-theme.css
-          test -s _site/artists/julie-mehretu/index.html
-          test -s _site/julie-mehretu.html
+          for slug in julie-mehretu olafur-eliasson simone-leigh kara-walker cecilia-vicuna theaster-gates wolfgang-tillmans william-kentridge hito-steyerl arthur-jafa christian-marclay rafael-lozano-hemmer; do
+            test -s "_site/artists/$slug/index.html"
+            test -s "_site/$slug.html"
+            grep -q 'Read the complete research profile' "_site/artists/$slug/index.html"
+            grep -q "href=\"/contemporary-art-atlas/$slug.html\"" "_site/artists/$slug/index.html"
+            grep -q 'atlas-theme.css' "_site/$slug.html"
+          done
           grep -q 'Julie Mehretu' _site/artists/julie-mehretu/index.html
-          grep -q 'Read the complete research profile' _site/artists/julie-mehretu/index.html
+          echo "All 12 generated profiles, original research pages, and theme assets are present."
       - uses: actions/upload-artifact@v4
         with:
           name: eleventy-migration-site
